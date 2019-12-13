@@ -1,0 +1,90 @@
+.jumbotron {
+    background: linear-gradient(90deg, rgba(7,4,62,1) 0%, rgba(9,9,213,1) 53%, rgba(255,255,255,1) 100%);
+    margin: 0;
+    padding: 30px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, rgba(7,4,62,1) 0%, rgba(9,9,213,1) 53%, rgb(81, 132, 226) 100%);
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.box_textshadow {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.61); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.zoom {
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+.bg {
+    background-image: url(/img/opening.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.carousel-item {
+    height: 250px;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -25px;;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
