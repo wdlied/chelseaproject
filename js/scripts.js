@@ -11,4 +11,10 @@ $(function() {
         $(this).addClass('active');
     });
 
+    // Attach Button click event listener 
+    $("#meetupBtn").click(function(){
+        // show Modal
+        $('#meetupModal').modal('show');
+    });
+
 });
