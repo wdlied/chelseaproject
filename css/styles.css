@@ -107,7 +107,7 @@ body {
     // or you could use percentage values for responsive layout
     // width : 200%;
     height: 175px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .thumbnail img{
