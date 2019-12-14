@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Roster <span class="sr-only">(current)</span></a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -57,12 +57,153 @@
             </form>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-3">
+                <div id="myBtnContainer">
+                    <button class="btn active btn-secondary" id="all"> Show all</button>
+                    <button class="btn btn-secondary" id="a"> Forwards</button>
+                    <button class="btn btn-secondary" id="b"> Midfielders</button>
+                    <button class="btn btn-secondary" id="c"> Defenders</button>
+                    <button class="btn btn-secondary" id="d"> Goalkeepers</button>
+                </div>
+            </div>
+        </div>
+        <div id="ct">
+            <div class="row player-card text-white mb-3 a" id="forward">
+                <div class="col-sm-6">
+                    <h3>Christian Pulisic</h3>
+                    <img src="/img/players/pulisic.jpg" class="thumbnail" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <dl class="row">
+                            <dt class="col-6">Date of Birth</dt>
+                            <dt class="col-6">September 18, 1998</dt>
+                            <dt class="col-6">Birthplace</dt>
+                            <dt class="col-6">Hershey, Pennsylvania, United States</dt>
+                            <dt class="col-6">Height</dt>
+                            <dt class="col-6">1.73m (5 ft 8 in)</dt>
+                            <dt class="col-6">Weight</dt>
+                            <dt class="col-6">70 kg</dt>
+                            <dt class="col-6">Position</dt>
+                            <dt class="col-6">Forward</dt>
+                            <dt class="col-6">Number</dt>
+                            <dt class="col-6">22</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Card Divider-->
+            <div class="row player-card text-white mb-3 a" id="forward">
+                <div class="col-sm-6">
+                    <h3>Willian</h3>
+                    <img src="/img/players/willian.jpg" class="thumbnail" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <dl class="row">
+                            <dt class="col-6">Date of Birth</dt>
+                            <dt class="col-6">August 9, 1988</dt>
+                            <dt class="col-6">Birthplace</dt>
+                            <dt class="col-6">Ribeirao Pires, Brazil</dt>
+                            <dt class="col-6">Height</dt>
+                            <dt class="col-6">1.75m (5 ft 9 in)</dt>
+                            <dt class="col-6">Weight</dt>
+                            <dt class="col-6">77 kg</dt>
+                            <dt class="col-6">Position</dt>
+                            <dt class="col-6">Forward</dt>
+                            <dt class="col-6">Number</dt>
+                            <dt class="col-6">10</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Card Divider-->
+            <div class="row player-card text-white mb-3 d" id="goalkeeper">
+                <div class="col-sm-6">
+                    <h3>Kepa Arrizabalaga</h3>
+                    <img src="/img/players/kepa.jpg" class="thumbnail" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <dl class="row">
+                            <dt class="col-6">Date of Birth</dt>
+                            <dt class="col-6">October 3, 1994</dt>
+                            <dt class="col-6">Birthplace</dt>
+                            <dt class="col-6">Ondarroa, Spain</dt>
+                            <dt class="col-6">Height</dt>
+                            <dt class="col-6">1.86m (6 ft 1 in)</dt>
+                            <dt class="col-6">Weight</dt>
+                            <dt class="col-6">88 kg</dt>
+                            <dt class="col-6">Position</dt>
+                            <dt class="col-6">Goalkeeper</dt>
+                            <dt class="col-6">Number</dt>
+                            <dt class="col-6">1</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Card Divider-->
+            <div class="row player-card text-white mb-3 c" id="defender">
+                <div class="col-sm-6">
+                    <h3>Cesar Azpilicueta</h3>
+                    <img src="/img/players/cesar.jpg" class="thumbnail" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <dl class="row">
+                            <dt class="col-6">Date of Birth</dt>
+                            <dt class="col-6">August 28, 1989</dt>
+                            <dt class="col-6">Birthplace</dt>
+                            <dt class="col-6">Pamplona, Spain</dt>
+                            <dt class="col-6">Height</dt>
+                            <dt class="col-6">1.78m (5 ft 10 in)</dt>
+                            <dt class="col-6">Weight</dt>
+                            <dt class="col-6">77 kg</dt>
+                            <dt class="col-6">Position</dt>
+                            <dt class="col-6">Defender</dt>
+                            <dt class="col-6">Number</dt>
+                            <dt class="col-6">28</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Card Divider-->
+            <div class="row player-card text-white mb-3 b" id="midfielder">
+                <div class="col-sm-6">
+                    <h3>Mateo Kovacic</h3>
+                    <img src="/img/players/mateo.jpg" class="thumbnail" />
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <dl class="row">
+                            <dt class="col-6">Date of Birth</dt>
+                            <dt class="col-6">May 6, 1994</dt>
+                            <dt class="col-6">Birthplace</dt>
+                            <dt class="col-6">Linz, Austria</dt>
+                            <dt class="col-6">Height</dt>
+                            <dt class="col-6">1.76m (5 ft 9 in)</dt>
+                            <dt class="col-6">Weight</dt>
+                            <dt class="col-6">80 kg</dt>
+                            <dt class="col-6">Position</dt>
+                            <dt class="col-6">Midfielder</dt>
+                            <dt class="col-6">Number</dt>
+                            <dt class="col-6">17</dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Card Divider-->
+        </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
